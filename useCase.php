@@ -10,5 +10,5 @@ try {
     $kurier->packagePDF($trackingNumber);
 
 } catch (Exception $e) {
-    echo "Błąd: " . $e->getMessage() . PHP_EOL;
+    echo "Error: " . $e->getMessage() . PHP_EOL;
 }
